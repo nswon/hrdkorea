@@ -5,37 +5,6 @@ sqlplus
 
 -------
 
-create table TBL_VOTE_202005(
- V_JUMIN CHAR(13) NOT NULL,
- V_NAME VARCHAR2(20),
- M_NO CHAR(1),
- V_TIME CHAR(4),
- V_AREA CHAR(20),
- V_CONFIRM CHAR(1),
- PRIMARY KEY (V_JUMIN)
-);
-
-
-create table TBL_MEMBER_202005(
-M_NO CHAR(1) NOT NULL,
-M_NAME VARCHAR2(20),
-P_CODE CHAR(2),
-P_SCHOOL CHAR(1),
-M_JUMIN CHAR(13),
-M_CITY VARCHAR2(20),
-PRIMARY KEY(M_NO)
-);
-
-create table TBL_PARTY_202005(
-P_CODE CHAR(2) NOT NULL,
-P_NAME VARCHAR2(20),
-P_INDATE DATE,
-P_READER VARCHAR2(20),
-P_TEL1 CHAR(3),
-P_TEL2 CHAR(4),
-P_TEL3 CHAR(4),
-PRIMARY KEY(P_CODE));
-
 insert into tbl_vote_202005 values('99010110001', '김유권', '1', '0930', '제1투표장', 'N'); 
 
 insert into tbl_vote_202005 values('99010110002', '이유권', '1', '0930', '제1투표장', 'N');
