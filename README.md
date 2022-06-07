@@ -36,8 +36,10 @@ P_TEL2 CHAR(4),
 P_TEL3 CHAR(4),
 PRIMARY KEY(P_CODE));
 
-insert into tbl_vote_202005 values(99010110001, '김유권', '1', '0930', '제1투표장', 'N');
+insert into tbl_vote_202005 values(99010110001, '김유권', '1', '0930', '제1투표장', 'N'); 
+
 insert into tbl_vote_202005 values(99010110002, '이유권', '1', '0930', '제1투표장', 'N');
+
 insert into tbl_vote_202005 values(99010110003, '박유권', '1', '0930', '제1투표장', 'Y');
 insert into tbl_vote_202005 values(99010110004, '홍유권', '1', '0930', '제1투표장', 'Y');
 insert into tbl_vote_202005 values(99010110005, '조유권', '1', '0930', '제1투표장', 'Y');
